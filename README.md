@@ -20,12 +20,14 @@
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
-Name of feature: ________________________________
+Name of feature: City Explorer________________________________
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 3 hours_____
 
-Start time: _____
+Start time: __4:30___
 
-Finish time: _____
+Finish time: __10:30___
 
-Actual time needed to complete: _____
+Actual time needed to complete: ___6 hours__
+
+![whiteboard](lab06.png)

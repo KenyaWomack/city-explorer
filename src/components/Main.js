@@ -1,8 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 import Card from 'react-bootstrap/Card';
-import App from '../App';
-import './src/App.css'
+
+
 
 
 class Main extends React.Component {
