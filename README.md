@@ -31,3 +31,4 @@ Finish time: __10:30___
 Actual time needed to complete: ___6 hours__
 
 ![whiteboard](lab06.png)
+![whiteboard](lab07.png)
