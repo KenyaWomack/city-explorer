@@ -1,42 +1,22 @@
 import React from 'react';
-// import { Carousel } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 // import { Button } from 'react-bootstrap';
-
-
-// const CityMovies = ({ movies }) => {
-//     const [index, setIndex] = useState(0);
-
-    // const handleSelect = (selectedIndex, e) => {
-    //     setIndex(selectedIndex);
-    // };
-// }
-
-// const filteredMovies = this.props.movie.filter(movie => movie.poster !== null);
-
 class Movie extends React.Component {
     render() {
+        console.log(this.props)
         return (
             <>
-                 {/* <h3>Movies About The City</h3>
-                 {/* <Carousel activeIndex={index} onSelect={handleSelect}> */}
-                 {/* <Carousel >
-                     {filteredMovies.map((movie, movieIndex) => (
-                         <Carousel.Item key={movieIndex}>
-                             <img
-                                 className="d-block w-100"
-                                 src={`https://image.tmdb.org/t/p/w300${movie.poster}`}
-                                 alt={movie.title}
-                                 style={{ maxHeight: '500px', objectFit: 'contain' }}
-                             />
-                             <h5>{movie.title}</h5>
-                             <p>{movie.overview}</p>
-                         </Carousel.Item>
-                     ))}
-                 </Carousel> */}
+            {this.props.movies.map((movie, index) => (
+                    <Card style={{ width: '30rem' }} key={index}>
+                        <Card.Img variant='top' src={`https://www.themoviedb.org/t/p/w600_and_h900_bestv2${movie.poster}`} />
+                        <Card.Title>{movie.title}</Card.Title>
+                        <Card.Text>
+                            {movie.overview}
+                        </Card.Text>
+                    </Card>
+            ))}
             </>
         )
     }
 }
-
-
 export default Movie;
